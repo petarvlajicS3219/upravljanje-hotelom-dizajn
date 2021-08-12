@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,800;0,900;1,100;1,200&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Utility Classes*/
+a {
+  text-decoration: none;
+}
+
+input {
+  border: 1px solid grey;
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: 0;
+}
+/*Utility Classes Custom*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.background {
+  background: url('../img/hero.jpg');
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+td,
+th {
+  vertical-align: middle;
+}
+
+.pdl-4 {
+  margin-left: 10px;
+}
+
+.background-form {
+  background: linear-gradient(135deg, rgb(97, 96, 96) 60%, rgb(236, 236, 236));
+}
+
+.form-input {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  padding: 200px 0px;
+}
+
+.card {
+  img {
+    height: 100%;
+  }
+}
+/*Semantic Tags*/
